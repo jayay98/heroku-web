@@ -6,4 +6,4 @@ RUN npm i
 
 COPY src /app/src
 EXPOSE 1337
-CMD [ "node", "src/server.js" ]
+CMD [ "npm", "start" ]
