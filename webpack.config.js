@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     lesson1: './src/webgl/lesson1.ts',
     lesson2: { import: './src/webgl/lesson2.ts', dependOn: 'shared'},
+    lesson3: { import: './src/webgl/lesson3.ts', dependOn: 'shared'},
     shared: 'gl-matrix'
   },
   output: {
