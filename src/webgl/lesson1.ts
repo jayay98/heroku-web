@@ -1,4 +1,4 @@
-function main() {
+function lesson1() {
     const canvas = <any>document.getElementById("glCanvas");
     const gl = <WebGLRenderingContext>canvas.getContext('webgl');
 
@@ -12,4 +12,4 @@ function main() {
     gl.clear(gl.COLOR_BUFFER_BIT);
 }
 
-window.onload = main;
+window.onload = lesson1;

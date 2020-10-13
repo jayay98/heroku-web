@@ -3,7 +3,9 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-    lesson1: './src/webgl/lesson1.ts'
+    lesson1: './src/webgl/lesson1.ts',
+    lesson2: { import: './src/webgl/lesson2.ts', dependOn: 'shared'},
+    shared: 'gl-matrix'
   },
   output: {
     path: path.resolve(__dirname, 'public/build/js'),
