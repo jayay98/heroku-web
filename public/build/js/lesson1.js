@@ -1,12 +1,1 @@
-"use strict";
-function main() {
-    const canvas = document.getElementById("glCanvas");
-    const gl = canvas.getContext('webgl');
-    if (gl === null) {
-        alert("Unable to initialize WebGL. Your browser or machine may not support it.");
-        return;
-    }
-    gl.clearColor(0.0, 0.0, .0, 1.0);
-    gl.clear(gl.COLOR_BUFFER_BIT);
-}
-window.onload = main;
+(()=>{"use strict";window.onload=function(){const e=document.getElementById("glCanvas").getContext("webgl");null!==e?(e.clearColor(0,0,0,1),e.clear(e.COLOR_BUFFER_BIT)):alert("Unable to initialize WebGL. Your browser or machine may not support it.")}})();
