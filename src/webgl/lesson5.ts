@@ -194,7 +194,7 @@ function drawScene(
   cubeRotation += deltaTime;
 }
 
-function lesson4() {
+function lesson5() {
   const canvas = <any>document.getElementById('glCanvas');
   const gl = <WebGLRenderingContext>canvas.getContext('webgl');
 
@@ -252,4 +252,4 @@ function lesson4() {
   requestAnimationFrame(render);
 }
 
-lesson4();
+lesson5();

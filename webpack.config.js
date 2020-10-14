@@ -10,6 +10,7 @@ module.exports = {
     lesson5: { import: './src/webgl/lesson5.ts', dependOn: 'shared' },
     lesson6: { import: './src/webgl/lesson6.ts', dependOn: 'shared' },
     lesson7: { import: './src/webgl/lesson7.ts', dependOn: 'shared' },
+    lesson8: { import: './src/webgl/lesson8.ts', dependOn: 'shared' },
     shared: 'gl-matrix',
   },
   output: {
